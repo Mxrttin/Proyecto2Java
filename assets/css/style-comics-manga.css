@@ -1,20 +1,49 @@
-body{
-    background-image: url(../img/fondoN.png);    
-  
-}
-.card{
-    width: 20rem;
-    transition: ease-in.3s
+body {
+    background-image: url(../img/fondoN.png);
 }
 
-.card:hover{
+.card {
+    width: 20rem;
+    transition: ease-in 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.card:hover {
     width: 22rem;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
-a{
+.card-img-top {
+    width: 100%;
+    height: 500px; /* Establecer una altura fija para las imágenes */
+    object-fit: cover; /* Ajustar la imagen para cubrir el contenedor */
+}
+
+a {
     text-decoration: none;
     color: black;
 }
 
+.btn {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
 
+.btn:hover {
+    background-color: #218838;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
