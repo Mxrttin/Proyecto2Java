@@ -1,0 +1,16 @@
+.d-info{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    color: black;
+
+}
+
+.d-img{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+}
